@@ -27,3 +27,8 @@ p floats[1]
 # by finding the current length of the array with the calculation of (length - 1) as indexes for arrays start at 0
 floats.push(7.9)
 p floats[floats.length - 1]
+
+# Part 3
+# My choice for a test array method is each. The method each will iterate over every element in an array to allow processing 
+# of individual elements or to search for a specific value
+strings.each {|name| p name}
